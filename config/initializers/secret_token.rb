@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Itstop::Application.config.secret_token = 'ed687e158137f398ac4238ff4db74eb25abdf6eb1d095f2e4d1aa94a82576e6153ea4a2b5c54ed14524bbc72b964241f243c639a346f26fdd73356eda36efd4b'
+SampleApp::Application.config.secret_token = '9de48d85680d78870645a72eb60cd3055d6686f25dc27190040df161fd780be527fb397c9b5ede1f32eee5531e10fba918bc46b77012a71ca47a13262c0b807a'
