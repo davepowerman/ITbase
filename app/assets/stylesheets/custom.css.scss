@@ -8,11 +8,17 @@ $grayLighter: #999;
   box-sizing: border-box;
 }
 
+*{
+  border:none;
+  margin:0px;
+  padding:0px;
+}
 html{
   overflow-y:scroll;
 }
 body{
   padding-top:60px;
+  background-image:url('binary_code.jpg');
 }
 section{
   overflow:auto;
