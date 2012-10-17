@@ -1,6 +1,9 @@
 @import "bootstrap";
 
-$grayLighter: #999;
+$grayLighter: #80b3b3;
+$blueLighter: #80ffcc;
+$blueDarker: #0080cc;
+$greenDarker: #339980;
 
 @mixin box_sizing {
   -moz-box-sizing: border-box;
@@ -18,7 +21,8 @@ html{
 }
 body{
   padding-top:60px;
-  background-image:url('binary_code.jpg');
+  background-image:url(../images/binary_code.png);
+  background-position:none;
 }
 section{
   overflow:auto;
@@ -74,9 +78,6 @@ footer{
   color:$grayLighter;
   a{
   color:#555;
-  }
-  &:hover{
-    color:#222;
   }
   small{
     float:left;
