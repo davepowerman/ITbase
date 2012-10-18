@@ -54,6 +54,10 @@ h2{
 p{
   font-size:1.1em;
   line-height:1.7em;
+  text-align:left;
+}
+.indent{
+  text-indent:40px;
 }
 #logo{
   float:left;
@@ -78,6 +82,9 @@ p{
 }
 #signin{
   text-align:center;
+}
+.user{
+  text-align:left;
 }
 footer{
   margin-top:45px;
