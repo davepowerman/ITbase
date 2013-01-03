@@ -56,6 +56,9 @@ p{
   line-height:1.7em;
   text-align:left;
 }
+ol{
+  list-style:none;
+}
 .indent{
   text-indent:40px;
 }
@@ -73,6 +76,11 @@ p{
   color:#fff;
   text-decoration:none;
   }
+}
+.bubble{
+  background:white;
+  border-radius:3px;
+  padding:3px;
 }
 .row{
   div{
