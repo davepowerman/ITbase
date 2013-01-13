@@ -35,6 +35,27 @@ textarea{
   margin-bottom:10px;
   }
 }
+.left{
+  float:left;
+}
+.right{
+  float:right;
+}
+.lower1{
+  padding-top:10px;
+}
+.lower2{
+  padding-top:20px;
+}
+.lower3{
+  padding-top:30px;
+}
+.lower4{
+  padding-top:40px;
+}
+.microposts{
+  
+}
 h1, h2, h3, h4, h5, h6{
   line-height:1;
 }
@@ -49,7 +70,7 @@ h2{
   letter-spacing:-1px;
   margin-bottom:30px;
   text-align:normal;
-  color:$grayLighter;
+  color:black;
 }
 p{
   font-size:1.1em;
