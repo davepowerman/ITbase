@@ -5,7 +5,7 @@ class MicropostsController < ApplicationController
     @micropost = current_user.microposts.build(params[:micropost])
     if @micropost.save
       flash[:success] = "Micropost created!"
-      redirect_to root_path
+      redirect_to chat_path
     else
       @feed_items = current_user.feed.paginate(page: params[:page])
       render 'static_pages/home'
