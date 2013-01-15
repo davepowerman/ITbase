@@ -1,6 +1,6 @@
 namespace :db do
   desc "Create Administrator in database"
-  task addadmin :environment do
+  task addadmin: :environment do
     admin = User.create!(name: "Administrator",
                          email: "youngwebking@gmail.com",
                          password: "chewydog",
